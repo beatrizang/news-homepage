@@ -1,0 +1,19 @@
+.left-text{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+@media screen and (max-width: 375px) {
+    .left-text{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left-text{
+        flex-direction: column;
+        width: 100%;
+    }
+}

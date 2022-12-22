@@ -1,0 +1,12 @@
+.left-text__button{
+    background: var(--soft-red);
+    color: var(--off-white);
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+}
+
+.left-text__button:hover{
+    background: var(--very-dark-blue);
+}   

@@ -1,0 +1,16 @@
+
+.top__left{
+    width: 80%;
+}
+
+@media screen and (max-width: 375px) {
+    .top__left{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top__left{
+        width: 100%;
+    }
+}

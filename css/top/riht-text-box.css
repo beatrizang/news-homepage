@@ -1,0 +1,10 @@
+.right-text__box{
+    align-items: center;
+    line-height: 2rem;
+    margin: 1rem;
+    padding-top: 2rem;
+}
+
+.line__top{
+    border-top: 1px solid var(--dark-grayish-blue);
+}

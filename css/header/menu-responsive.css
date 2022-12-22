@@ -1,0 +1,15 @@
+.menu__responsive{
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .menu__responsive{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu__responsive{
+        display: block;
+    }
+}

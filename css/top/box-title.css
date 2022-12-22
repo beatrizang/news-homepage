@@ -1,0 +1,8 @@
+.box__title{
+    color: var(--off-white);
+    cursor: pointer;
+    font-weight: 700;
+}
+.box__title:hover{
+    color: var(--soft-orange);
+}

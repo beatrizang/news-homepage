@@ -1,0 +1,11 @@
+.list__subtitle{
+    color: var(--very-dark-blue);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.list__subtitle:hover{
+    color: var(--soft-red);
+}

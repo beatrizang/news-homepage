@@ -1,0 +1,16 @@
+.nav__menu{
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (max-width: 375px) {
+    .nav__menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav__menu{
+        display: none;
+    }
+}

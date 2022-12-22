@@ -1,0 +1,19 @@
+.top__right{
+    background: var(--very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+@media screen and (max-width: 375px) {
+    .top__right{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top__right{
+        width: 100%;
+    }
+}

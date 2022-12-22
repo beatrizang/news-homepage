@@ -1,0 +1,21 @@
+.left-text__title{
+    color: var(--very-dark-blue);
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 1rem;
+    width: 50%;
+}
+
+@media screen and (max-width: 375px) {
+    .left-text__title{
+        width: 100%;
+       padding: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left-text__title{
+        width: 100%;
+       padding: 1rem 0;
+    }
+}

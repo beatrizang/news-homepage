@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/base/variable.css">
+  <link rel="stylesheet" href="./css/base/reset.css">
+  <link rel="stylesheet" href="./css/base/base.css">
+
+  <link rel="stylesheet" href="./css/header/nav.css">
+  <link rel="stylesheet" href="./css/header/nav-menu.css">
+  <link rel="stylesheet" href="./css/header/nav-item.css">
+  <link rel="stylesheet" href="./css/header/nav-link.css">
+  <link rel="stylesheet" href="./css/header/menu-responsive.css">
+
+  <link rel="stylesheet" href="./css/top/top.css">
+  <link rel="stylesheet" href="./css/top/top-left.css">
+  <link rel="stylesheet" href="./css/top/left-text.css">
+  <link rel="stylesheet" href="./css/top/left-text-title.css">
+  <link rel="stylesheet" href="./css/top/left-text-text.css">
+  <link rel="stylesheet" href="./css/top/left-text-paragraph.css">
+  <link rel="stylesheet" href="./css/top/left-text-button.css">
+
+  <link rel="stylesheet" href="./css/top/top-right.css">
+  <link rel="stylesheet" href="./css/top/right-text-title.css">
+  <link rel="stylesheet" href="./css/top/box-title.css">
+  <link rel="stylesheet" href="./css/top/box-paragraph.css">
+  <link rel="stylesheet" href="./css/top/riht-text-box.css">
+  <link rel="stylesheet" href="./css/top/image-left.css">
+
+  <link rel="stylesheet" href="./css/bottom/bottom.css">
+  <link rel="stylesheet" href="./css/bottom/bottom-list.css">
+  <link rel="stylesheet" href="./css/bottom/list-box.css">
+  <link rel="stylesheet" href="./css/bottom/list-image.css">
+  <link rel="stylesheet" href="./css/bottom/list-text.css">
+  <link rel="stylesheet" href="./css/bottom/list-title.css">
+  <link rel="stylesheet" href="./css/bottom/list-subtitle.css">
+  <link rel="stylesheet" href="./css/bottom/list-para.css">
+
+  <link rel="stylesheet" href="./css/footer/footer.css">
+
+  <title>Frontend Mentor | News homepage</title>
+
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img class="nav__image" src="./assets/images/logo.svg" alt="Logo">
+      <ul class="nav__menu">
+        <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">New</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Popular</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Trending</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Categories</a></li>
+      </ul>
+      <button class="menu__responsive"><img src="./assets/images/icon-menu.svg" alt=""></button>
+    </nav>
+    
+  </header>
+
+  <main class="main">
+    <div class="top">
+      <div class="top__left">
+        <img class="image__left" src="./assets/images/image-web-3-desktop.jpg" alt="Image web">
+        <div class="left-text">
+          <h2 class="left-text__title">The Bright Future of Web 3.0?</h2>
+          <div class="left-text__text">
+            <p class="left-text__paragraph">We dive into the next evolution of web that claims to put the power of the plataforms back into the hands of the people. But is it really fulfilling its promise?
+            </p>
+            <button class="left-text__button">READ MORE</button>
+          </div>
+        </div>
+      </div>
+      <div class="top__right">
+        <h2 class="right-text__title">New</h2>
+        <div class="right-text__box">
+          <h3 class="box__title">Hydrogen VS Electric Cars</h3>
+          <p class="box__paragraph">Will hydrogen fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="line__top right-text__box">
+          <h3 class="box__title">The Downsides of AI Artistry</h3>
+          <p class="box__paragraph">What are the possible adverse effects of on-demmand AI image generation?</p>
+        </div>
+        
+        <div class="line__top right-text__box">
+          <h3 class="box__title">Is VC Funding Drying Up?</h3>
+          <p class="box__paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </div>
+    <!-- BOTTOM-->
+    <div class="bottom">
+      <ul class="bottom__list">
+        <li class="list__item">
+          <div class="list__box">
+            <img class="list__image" src="./assets/images/image-retro-pcs.jpg" alt="">
+            <div class="list__text">
+              <h4 class="list__title">01</h4>
+              <h5 class="list__subtitle">Reviving Retro PCs</h5>
+              <p class="list__para">What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+        </li>
+        <li class="list__item">
+          <div class="list__box">
+            <img class="list__image" src="./assets/images/image-top-laptops.jpg" alt="">
+            <div class="list__text">
+              <h4 class="list__title">02</h4>
+              <h5 class="list__subtitle">Top 10 Laptos of 2022</h5>
+              <p class="list__para">Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+        </li>
+        <li class="list__item">
+          <div class="list__box">
+            <img class="list__image" src="./assets/images/image-gaming-growth.jpg" alt="">
+            <div class="list__text">
+              <h4 class="list__title">03</h4>
+              <h5 class="list__subtitle">The Growth of Gaming</h5>
+              <p class="list__para">How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    Challenge by <a class="footer__link" href="https://www.frontendmentor.io/profile/beatrizang" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+    Coded by <a class="footer__link" target="_blank" rel="noopener noreferrer" href="https://github.com/beatrizang">Beatriz</a>.
+  </footer>
+</body>
+</html>
