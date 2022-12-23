@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/news-homepage-jUDtcKkD2I
+- Live Site URL: https://beatrizang.github.io/news-homepage/
 
 ## My process
 
