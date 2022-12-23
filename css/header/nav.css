@@ -4,3 +4,24 @@
     margin: 1.5rem;
 }
 
+@media screen and (max-width: 375px) {
+    .nav{
+        margin: 0;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        z-index: 1;
+        transition: all 500ms;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav{
+        margin: 0;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        z-index: 1;
+        transition: all 500ms;
+    }
+}

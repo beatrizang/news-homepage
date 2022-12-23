@@ -1,3 +1,15 @@
 .nav__item{
     margin: 0 1rem;
 }
+
+@media screen and (max-width: 375px) {
+    .nav__item{
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav__item{
+        margin: 1rem;
+    }
+}

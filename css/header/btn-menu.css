@@ -1,0 +1,16 @@
+#btn_menu{
+    display: none;
+    padding: 1.5rem;
+}
+
+@media screen and (max-width: 375px) {
+    #btn_menu{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #btn_menu{
+        display: block;
+    }
+}

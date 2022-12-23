@@ -1,0 +1,17 @@
+.nav__close{
+    align-self: flex-end;
+    margin: 2rem 1rem 5rem 1rem;
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .nav__close{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav__close{
+        display: block;
+    }
+}

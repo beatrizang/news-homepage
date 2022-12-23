@@ -5,12 +5,29 @@
 
 @media screen and (max-width: 375px) {
     .nav__menu{
-        display: none;
+        align-items: flex-start;
+        background: var(--off-white);
+        color: var(--very-dark-blue);
+        font-weight: 500;
+        flex-direction: column;
+        width: 250px;
+        height: 100vh;
+        top: 0;
+        right: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .nav__menu{
-        display: none;
+        align-items: flex-start;
+        background: var(--off-white);
+        color: var(--very-dark-blue);
+        font-weight: 500;
+        flex-direction: column;
+        width: 250px;
+        height: 100vh;
+        top: 0;
+        right: 0;
     }
 }
+
